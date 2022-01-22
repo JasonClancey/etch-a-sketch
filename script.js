@@ -8,3 +8,8 @@ for (let i = 0; i < 256; i++) {
     container.appendChild(gridSquare.cloneNode(true))
 };
 
+const grid = document.querySelectorAll('#theGrid');
+
+grid.forEach(square => {
+    square.addEventListener('mouseover', () => square.style.backgroundColor = 'purple')
+})
