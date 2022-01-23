@@ -1,6 +1,13 @@
 body {
     display: flex;  
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.userInput {
+    padding: 3px;
+    margin: 10px;
 }
 
 .container {
@@ -15,7 +22,5 @@ body {
 }
 
 #theGrid {
-    width: 6.25%;
-    height: 6.25%;
-    background-color: red;
+    background-color: white;
 }
